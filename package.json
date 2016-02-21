@@ -1,0 +1,26 @@
+{
+  "name": "scripting-game",
+  "version": "1.0.0",
+  "description": "A small html canvas and js based scripting game.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/walshj19/ScriptingGame.git"
+  },
+  "keywords": [
+    "game",
+    "canvas"
+  ],
+  "author": "James Walsh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/walshj19/ScriptingGame/issues"
+  },
+  "homepage": "https://github.com/walshj19/ScriptingGame#readme",
+  "scripts":{
+    "build":"coffee -o js/ -c coffee/"
+  }
+}
